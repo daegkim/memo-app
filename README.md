@@ -16,7 +16,7 @@ npm run build
 cd ..
 
 #set express
-cd ./express
+cd ./express-proj
 npm install
 cd ..
 
