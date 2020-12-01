@@ -9,11 +9,16 @@
 git submodule init
 git submodule update
 
-# build vue.js
+#set vue.js
 cd ./vue-proj
+npm install
 npm run build
 cd ..
 
+#set express
+cd ./express
+npm install
+cd ..
+
 # start express
-cd ./express-proj
-pm2 start ./bin/www 
+pm2 start ./express-proj/pm2.config.js --env production
