@@ -18,7 +18,6 @@ cd ..
 #set express
 cd ./express-proj
 npm install
-cd ..
 
 # start express
-pm2 start ./express-proj/pm2.config.js --env production
+pm2 start pm2.config.js --env production
