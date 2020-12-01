@@ -1,0 +1,6 @@
+[submodule "express-proj"]
+	path = express-proj
+	url = https://github.com/daegkim/express-proj
+[submodule "vue-proj"]
+	path = vue-proj
+	url = https://github.com/daegkim/vue-proj
