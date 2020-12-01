@@ -5,6 +5,10 @@
 ## Build Setup
 
 ``` bash
+#init submodules
+git submodule init
+git submodule update
+
 # build vue.js
 cd ./vue-proj
 npm run build
